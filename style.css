@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Inicio Header */
+header {
+  display: flex;
+  background-color: #4b93bf;
+  justify-content: space-between;
+  color: #ffffff;
+}
+nav {
+  width: 40vw;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 14vh;
+  font-size: 24px;
+}
+/* Fim Header */
+
+figure {
+  display: flex;
+  align-items: center;
+  width: 26vw;
+}
+
+/* Inicio Primeira Section */
+.estacaoDoAno {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+.estacaoDoAno p {
+  color: #0f468c;
+  width: 34vw;
+  font-size: 20px;
+}
+/* Fim Primeira Section */
+
+/* Inicio Segunda Section */
+.duracao {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4B93BF;
+}
+.duracao p {
+  color: #E4EEF1;
+  width: 34vw;
+  font-size: 32px;
+}
+/* Fim Segunda Section */
+
+/* Inicio Terceira Section */
+.galeria figure {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.galeria1 {
+  height: 350px;
+  width: 350px;
+}
+.galeria2 {
+  height: 350px;
+  width: 262.27px;
+}
+.galeria3 {
+  height: 350px;
+  width: 266.74px;
+}
+.galeria4 {
+  height: 350px;
+  width: 357.04px;
+}
+/* Fim Terceira Section */
+
+/* Inicio do Footer */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 118px;
+  background-color: #4B93BF;
+  color: #E4EEF1;
+  font-size: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  width: 300px;
+
+}
+.logoDaPagina {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  width: 70px;
+}
+/* Fim do Footer */
